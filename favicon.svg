@@ -1,14 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-  <rect width="512" height="512" rx="84" fill="#14cdda"/>
   <defs>
-    <linearGradient id="g" x1="0" y1="1" x2="1" y2="0">
+    <linearGradient id="bg" x1="0" y1="512" x2="512" y2="0" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#07599b"/>
-      <stop offset="0.55" stop-color="#159ac1"/>
+      <stop offset="0.52" stop-color="#149fc8"/>
       <stop offset="1" stop-color="#21e5df"/>
     </linearGradient>
   </defs>
-  <rect width="512" height="512" rx="84" fill="url(#g)"/>
-  <path fill="#06243a" d="M55 0h95v332c0 42 26 79 73 79h47c89 0 151-67 151-157 0-91-62-155-151-155h-76V21h95c134 0 223 99 223 233 0 137-90 236-223 236h-66C116 490 55 420 55 332V0z" opacity="0.92"/>
-  <path fill="#fff" d="M96 0h91v332c0 34 17 55 45 55h51c70 0 112-55 112-132 0-78-43-132-112-132h-49v163h-90V45c0-25-20-45-48-45z"/>
-  <circle cx="279" cy="255" r="42" fill="#14cdda"/>
+  <rect width="512" height="512" rx="86" fill="url(#bg)"/>
+  <path fill="#050505" d="M79 4h96v308c0 49 29 86 82 86h42c77 0 130-59 130-143 0-83-52-141-130-141h-66v78h51c37 0 61 25 61 64s-24 65-61 65h-15c-24 0-37-16-37-42V4h141c84 0 139 101 139 251 0 156-80 251-205 251h-65c-101 0-163-70-163-184V4z"/>
 </svg>
